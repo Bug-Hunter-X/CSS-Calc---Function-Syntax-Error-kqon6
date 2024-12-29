@@ -1,0 +1,9 @@
+The correct CSS code should remove the space between the minus sign and the number in the `calc()` function:
+
+```css
+#myElement {
+  width: calc(100% - 50px);
+}
+```
+
+By removing this space, the `calc()` function will correctly interpret the subtraction and calculate the width of the element.
