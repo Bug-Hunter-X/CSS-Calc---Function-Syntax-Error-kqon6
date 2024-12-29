@@ -1,0 +1,7 @@
+The following CSS code uses the `calc()` function to calculate the width of an element. However, there is a syntax error because there is a space between the minus sign and the number. This can lead to unexpected behavior or the CSS rule being ignored.
+
+```css
+#myElement {
+  width: calc(100% - 50 px);
+}
+```
